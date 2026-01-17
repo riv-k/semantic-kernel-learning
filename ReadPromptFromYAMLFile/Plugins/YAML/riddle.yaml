@@ -1,0 +1,12 @@
+name: Riddle
+template: |
+  Tell me a riddle on given topic: {{$input}}.
+template_format: semantic-kernel
+description: A riddle teller.
+Input_variables:
+  - name: topic
+    description: Topic on which riddle has to be generated.
+    is_required: true
+output_variable:
+  description: The generated riddle.
+ 
